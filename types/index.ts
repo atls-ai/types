@@ -42,6 +42,7 @@ export module atls {
     conversationId: string;
     paymentLink?: string;
     paymentLinkId?: string;
+    salesforceId?: string;
   }
   
   export interface TokenEntity extends BaseEntity {
@@ -62,6 +63,11 @@ export module atls {
   export interface CharacterEntity extends BaseEntity {
     name: string;
     summary: string;
+    userId: string;
+    icon: string;
+    color: string;
+    welcome: string;
+    salesforceId?: string;
   }
 
   export interface CharacterSubscriptionEntity extends BaseEntity {
@@ -79,6 +85,7 @@ export module atls {
     content: string;
     files?: string;
     status?: string;
+    title?: string;
   }
 
   export type TableEntity = 
