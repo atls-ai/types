@@ -63,6 +63,13 @@ export module atls {
     name: string;
     summary: string;
   }
+
+  export interface CharacterSubscriptionEntity extends BaseEntity {
+    characterId: string;
+    userId: string;
+    salesforceId?: string;
+    role: string;
+  }
   
   export interface MessageEntity extends BaseEntity {
     userId: string;
