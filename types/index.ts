@@ -93,6 +93,7 @@ export module atls {
   | TokenEntity
   | ConversationEntity
   | CharacterEntity
+  | CharacterSubscriptionEntity
   | MessageEntity
   | ContextEntity
   | ChunksEntity
