@@ -43,6 +43,7 @@ export module atls {
     paymentLink?: string;
     paymentLinkId?: string;
     salesforceId?: string;
+    atlasToken?: string;
   }
   
   export interface TokenEntity extends BaseEntity {
